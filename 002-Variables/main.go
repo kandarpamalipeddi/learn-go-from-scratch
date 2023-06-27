@@ -2,7 +2,7 @@ package main
 
 import "log"
 
-// We can't use :=  shortcut for global variables.
+// We can't use :=  shorthand for global variables.
 // global_int := 20
 var global_str = "Global string"
 
@@ -14,7 +14,7 @@ func main() {
 	num = 10
 	decimal = 20.4
 
-	dynamic_str := "This is a dynamic string !!! "
+	dynamic_str := "This string is declared in shortcut way !!! "
 
 	log.Println("Integer number : ", num)
 	log.Println("Float number : ", decimal)

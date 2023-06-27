@@ -23,6 +23,10 @@ func format_string_with_error(str string) (string, error) {
 	return "Formatted string : " + str, nil
 }
 
+func updateString(str *string) {
+	*str = "Updated string " + *str
+}
+
 func main() {
 	print_string("Hello All !!!")
 	log.Println(format_ourput_string("Hello There !!!"))
@@ -33,5 +37,9 @@ func main() {
 	} else {
 		log.Println(err)
 	}
+
+	name := "Kandarpa"
+	updateString(&name)
+	log.Println(name)
 
 }
