@@ -11,5 +11,13 @@ func main() {
 	family_map["daughter"] = "Mahika Malipeddi"
 	family_map["son"] = "Dhruv Malipeddi"
 
+	mySlice := []string{
+		"Kandarpa Malipeddi",
+		"Manisha Ghule",
+		"Mahika Malipeddi",
+		"Dhruv Malipeddi",
+	}
+
 	log.Println(family_map)
+	log.Println(mySlice)
 }
